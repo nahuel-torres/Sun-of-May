@@ -1,0 +1,25 @@
+$fuente: 'Ubuntu', sans-serif;
+
+$f-weight:(	normal: 300,
+			medium: 500,
+			bold: 700
+);
+$t-color: ( link:#e83e8c,
+			title:#fd7e14,
+			sub:#17a2b8,
+			text:#ffffffab,
+			head:#ffc107
+);
+$bg-nav: 	#343a40ec linear-gradient(180deg, #343a40ec 28%, #4e360cc9 92%);
+
+$bg-contenido: #4e360cc9 linear-gradient(180deg, #4e360cc9 29%, #343a40ec 92%);
+
+$bg-footer: #41c0e3 linear-gradient(180deg, #41c0e3 0%, #ffffff 33%, #ffffff 66%, #41c0e3 100%);
+
+$link: #f5f5f5f5;
+
+$banner: 5vh;
+
+$p-color: #ffffffab;
+
+$p-size: 1.2em;

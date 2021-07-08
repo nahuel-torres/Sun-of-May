@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<title>sun of may</title>
+</head>
+<body class="bg-dark">
+	<div id="nav" class="fixed-top">
+		<nav class="navbar navbar-expand-lg navegador">
+		  <a class="navbar-brand navegador__logo navegador__secciones--links" href="../index.html">
+		    <img src="../media/icono.jpg" width="50" height="50" class="d-inline-block align-top" alt="Logo" loading="lazy">
+		    Long May The Sunshine
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse navegador__secciones" id="navbarNavAltMarkup">
+		    <div class="navbar-nav navegador__secciones">
+		      <a class="navegador__secciones--links nav-link active" href="../index.html">Home <span class="sr-only">(current)</span></a>
+		      <a class="navegador__secciones--links nav-link" href="contact.html">Contact</a>
+		      <a class="navegador__secciones--links nav-link" href="about-us.html">About Us</a>
+		    </div>
+		  </div>
+		</nav>		
+	</div>
+	<div id="banner" class="banner contenido">
+		<img src="../media/mobile-principal.png" class="img-fluid d-md-none d-lg-none d-xl-none banner--padding" alt="banner">
+		<img src="../media/contact.jpg" class="rounded mx-auto d-none d-md-block d-lg-block d-xl-block banner--padding-contact" alt="banner">	
+	</div>
+	<div id="contenido" class="bg-dark">
+		<div class="container">
+			<form class="needs-validation" novalidate>
+	  			<div class="form-row text-light">
+				    <div class="col-md-6 mb-3">
+				     	<label for="validationTooltip01">Nombre</label>
+				      	<input type="text" class="form-control" id="validationTooltip01" value="" required>
+				      	<div class="valid-tooltip">
+				        	Looks good!
+				    	</div>
+					</div>
+					<div class="col-md-6 mb-3">
+						<label for="validationTooltip02">Apellido</label>
+				    	<input type="text" class="form-control" id="validationTooltip02" value="" required>
+				    	<div class="valid-tooltip">
+				    		Looks good!
+				      	</div>
+				    </div>
+				</div>
+				<div class="form-row text-light">
+				    <div class="col-md-6 mb-3">
+				    	<label for="validationCustom03">De donde sos?</label>
+				    	<input type="text" class="form-control" id="validationCustom03" required>
+				    	<div class="invalid-feedback">
+				      		Please provide a valid city.
+				    	</div>
+				  	</div>
+				    <div class="col-md-3 mb-3">
+				    	<label for="validationTooltip04">Medio para comunicarte</label>
+				    	<select class="custom-select" id="validationTooltip04" required>
+				        	<option selected disabled value="">Cual preferis</option>
+				        	<option>Gmail</option>
+				        	<option>Steam</option>
+				        	<option>Discord</option>
+				      	</select>
+				    </div>
+				    <div class="col-md-3 mb-3">
+				    	<label for="validationTooltip05">Gmail/Codigo de Steam/Discord</label>
+				    	<input type="text" class="form-control" id="validationTooltip05" required>
+				    	<div class="invalid-tooltip">
+				        	Please provide a user.
+				    	</div>
+				    </div>
+				</div>
+				<div class="form-row text-light">
+				    <label for="exampleFormControlTextarea1">Escribe la sugerencia que tengas para la pagina</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				  Submit
+				</button>
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content bg-dark">
+				      <div class="modal-header">
+				        <h5 class="modal-title text-light" id="exampleModalLabel">May the Flame Guide you</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <img class="rounded mx-auto d-block" src="../media/solaire8bits.gif" alt="esto-por-ahora-no-sirve">
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-danger bg-dark text-light" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</form>
+		</div>
+	<div id="juegos" class="container-fluid">
+		<div class="card-group bg-dark">
+		  <div class="juegos card bg-dark">
+		    <a href="dark-souls1.html" class="juegos__contenido"><img src="../media/ds1.jpg" class="img-fluid" alt="portada1"></a>
+		    <div class="juegos__contenido card-body bg-dark">
+		      <h5 class="card-title color-sub">Dark Souls 1</h5>
+		      <p class="juegos__contenido--texto f-medium card-text">Para conocer la seccion dedicada al primer juego de la saga, y saber los datos recolectados acerca de areas como pvp o coop <a class="color-link text-decoration-none" href="dark-souls1.html">click aqui</a> o en la imagen.</p>
+		    </div>
+		  </div>
+		  <div class="juegos card bg-dark">
+		    <a href="dark-souls2.html" class="juegos__contenido"><img src="../media/ds2.jpg" class="img-fluid" alt="portada2"></a>
+		    <div class="juegos__contenido card-body">
+		      <h5 class="card-title color-sub">Dark Souls 2</h5>
+		      <p class="juegos__contenido--texto f-medium card-text">Para conocer la seccion dedicada al segundo juego de la saga, y saber los datos recolectados acerca de areas como pvp o coop <a class="color-link text-decoration-none" href="dark-souls2.html">click aqui</a> o en la imagen.</p>
+		    </div>
+		  </div>
+		  <div class="juegos card bg-dark">
+		    <a href="dark-souls3.html" class="juegos__contenido"><img src="../media/ds3.jpg" class="img-fluid" alt="portada3"></a>
+		    <div class="juegos__contenido card-body">
+		      <h5 class="card-title color-sub">Dark Souls 3</h5>
+		      <p class="juegos__contenido--texto f-medium card-text">Para conocer la seccion dedicada al tercer juego de la saga, y saber los datos recolectados acerca de areas como pvp o coop <a class="color-link text-decoration-none" href="dark-souls3.html">click aqui</a> o en la imagen.</p>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div id="footer">
+		<nav class="navbar navbar-light">
+		  <a class="navbar-brand" href="https://steamcommunity.com/profiles/76561198081627503/ "target="_blank">
+		    <img src="../media/steam-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
+		  </a>
+		  <a class="navbar-brand" href="mailto:nahujesus@gmail.com" target="_blank">
+		    <img src="../media/gmail-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
+		  </a>
+		  <a class="navbar-brand" href="https://discord.gg/fRm9fJz" target="_blank">
+		    <img src="../media/discord.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
+		  </a>
+		  <img src="../media/argentina.png" class="rounded-circle" width="30" height="30" alt="Pais" loading="lazy">
+		  <a class="navbar-brand" href="https://www.fromsoftware.jp/ww/ "target="_blank">
+		    <img src="../media/Fromsoftware_logo.png" class="d-none d-md-block d-lg-block d-xl-block" width="500" alt="redes" loading="lazy">
+		  </a>
+		</nav>	
+	</div>
+	<script src="../jquery/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>	
+</body>
+</html>

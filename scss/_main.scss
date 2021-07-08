@@ -1,0 +1,78 @@
+body {
+	font-family: $fuente;
+}
+@each $k, $v in $f-weight{
+	.f-#{$k}{
+		font-weight: $v;
+	}
+}
+@each $k, $v in $t-color{
+	.color-#{$k}{
+		color: $v;
+	}
+}
+@mixin fuente ($p-color, $p-size){
+	color: $p-color;
+	font-size: $p-size;
+} 
+/*nav*/ 
+.navegador{
+	background: $bg-nav;
+	.navegador__logo{
+		background: $bg-nav;
+	}
+	.navegador__secciones--links {
+	 	color: $link 
+	}
+	.navegador__secciones{
+		background: $bg-nav;
+		.navegador__secciones--links{
+			background: $bg-nav;
+			color: $link
+		}
+	}
+}
+/*banner*/
+.banner--padding {
+	margin-top: $banner;
+}
+.banner--padding-contact {
+	margin-top: $banner+2.5;
+}
+
+/*contenido home*/
+.contenido{
+	background: $bg-contenido;
+	.contenido__relleno {
+		background: $bg-contenido;
+		.contenido__relleno--parrafo{
+			@include fuente($p-color,$p-size);
+		}
+	}
+}
+/*contenido ds3*/
+#contenido {
+	p, table{
+		font-size: ($p-size);
+	}
+}
+
+/*juegos*/
+
+.juegos{
+	border: none;
+	.juegos__contenido{
+		img{
+			width: 30vh;
+			height: 40vh;
+		}
+		.juegos__contenido--texto{
+			@include fuente($p-color,$p-size);
+		}
+	}
+}
+
+/*footer*/
+#footer {
+	background: $bg-footer;
+}
