@@ -3,13 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Espacio reservado para información del creador del sitio web, por si te interesa saber quién está detrás de la idea.">
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<title>sun of may</title>
+	<link rel="stylesheet" href="../css/animate.min.css">
+	<link rel="shortcut icon" href="../media/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../media/favicon.ico" type="image/x-icon">
+	<title>Conoce más sobre mí</title>
 </head>
 <body class="bg-dark">
 	<div id="nav" class="fixed-top">
-		<nav class="navbar navbar-expand-lg navegador">
+		<nav class="navbar navbar-expand-lg navegador navbar-dark wow animate__animated animate__fadeInUp">
 		  <a class="navbar-brand navegador__logo navegador__secciones--links" href="../index.html">
 		    <img src="../media/icono.jpg" width="50" height="50" class="d-inline-block align-top" alt="Logo" loading="lazy">
 		    Long May The Sunshine
@@ -26,9 +30,9 @@
 		  </div>
 		</nav>		
 	</div>
-	<div id="banner" class="banner">
-		<img src="../media/mobile-principal.png" class="img-fluid d-md-none d-lg-none d-xl-none banner--padding" alt="banner">
-		<img src="../media/imagen_principal.png" class="img-fluid d-none d-md-block d-lg-block d-xl-block banner--padding" alt="banner">	
+	<div id="banner" class="banner banner--padding">
+		<div class="banner--padding mobile d-inline-block d-sm-inline-block d-md-inline-block d-lg-none d-xl-none"></div>
+		<div class="banner--padding desktop d-none d-sm-none d-md-none d-lg-inline-block d-xl-inline-block"></div>	
 	</div>
 	<div id="contenido" class="contenido">
 		<div class="container contenido__relleno">
@@ -40,21 +44,21 @@
 	</div>
 	<div id="juegos" class="container-fluid">
 		<div class="card-group bg-dark">
-		  <div class="juegos card bg-dark">
+		  <div class="juegos card bg-dark wow animate__animated animate__slideInLeft">
 		    <a href="dark-souls1.html" class="juegos__contenido"><img src="../media/ds1.jpg" class="img-fluid" alt="portada1"></a>
 		    <div class="juegos__contenido card-body bg-dark">
 		      <h5 class="card-title color-sub">Dark Souls 1</h5>
 		      <p class="juegos__contenido--texto f-medium card-text">Para conocer la seccion dedicada al primer juego de la saga, y saber los datos recolectados acerca de areas como pvp o coop <a class="color-link text-decoration-none" href="dark-souls1.html">click aqui</a> o en la imagen.</p>
 		    </div>
 		  </div>
-		  <div class="juegos card bg-dark">
+		  <div class="juegos card bg-dark wow animate__animated animate__slideInUp">
 		    <a href="dark-souls2.html" class="juegos__contenido"><img src="../media/ds2.jpg" class="img-fluid" alt="portada2"></a>
 		    <div class="juegos__contenido card-body">
 		      <h5 class="card-title color-sub">Dark Souls 2</h5>
 		      <p class="juegos__contenido--texto f-medium card-text">Para conocer la seccion dedicada al segundo juego de la saga, y saber los datos recolectados acerca de areas como pvp o coop <a class="color-link text-decoration-none" href="dark-souls2.html">click aqui</a> o en la imagen.</p>
 		    </div>
 		  </div>
-		  <div class="juegos card bg-dark">
+		  <div class="juegos card bg-dark wow animate__animated animate__slideInRight">
 		    <a href="dark-souls3.html" class="juegos__contenido"><img src="../media/ds3.jpg" class="img-fluid" alt="portada3"></a>
 		    <div class="juegos__contenido card-body">
 		      <h5 class="card-title color-sub">Dark Souls 3</h5>
@@ -65,22 +69,24 @@
 	</div>
 	<div id="footer">
 		<nav class="navbar navbar-light">
-		  <a class="navbar-brand" href="https://steamcommunity.com/profiles/76561198081627503/ "target="_blank">
+		  <a class="navbar-brand" href="https://steamcommunity.com/profiles/76561198081627503/ "target="_blank" rel="noopener noreferrer">
 		    <img src="../media/steam-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
 		  </a>
-		  <a class="navbar-brand" href="mailto:nahujesus@gmail.com" target="_blank">
+		  <a class="navbar-brand" href="mailto:nahujesus@gmail.com" target="_blank" rel="noopener noreferrer">
 		    <img src="../media/gmail-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
 		  </a>
-		  <a class="navbar-brand" href="https://discord.gg/fRm9fJz" target="_blank">
+		  <a class="navbar-brand" href="https://discord.gg/fRm9fJz" target="_blank" rel="noopener noreferrer">
 		    <img src="../media/discord.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
 		  </a>
 		  <img src="../media/argentina.png" class="rounded-circle" width="30" height="30" alt="Pais" loading="lazy">
-		  <a class="navbar-brand" href="https://www.fromsoftware.jp/ww/ "target="_blank">
+		  <a class="navbar-brand" href="https://www.fromsoftware.jp/ww/ "target="_blank" rel="noopener noreferrer">
 		    <img src="../media/Fromsoftware_logo.png" class="d-none d-md-block d-lg-block d-xl-block" width="500" alt="redes" loading="lazy">
 		  </a>
 		</nav>	
 	</div>
 	<script src="../jquery/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>	
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script> new WOW().init();</script>	
 </body>
 </html>
