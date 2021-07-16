@@ -21,8 +21,7 @@ body {
 	.navegador__logo{
 		transition: all 30ms;
 		&:hover {
-			transform: scale(2.1);
-			transform: skewX(10deg);
+			transform: scale(1.1);
 			color: #fd7e14;
 			background: #0d3761ec
 		}
@@ -36,8 +35,7 @@ body {
 				color: $link;
 				transition: all 30ms;
 				&:hover {
-					transform: scale(2.1);
-					transform: skewX(10deg);
+					transform: scale(1.1);
 					color: #fd7e14;
 					background: #0d3761ec
 		}
@@ -46,6 +44,7 @@ body {
 /*banner*/
 .banner--padding {
 	margin-top: $banner;
+	background: $bg-nav;
 	.mobile {	
 		background-image: url(../media/mobile-principal.png);
 		max-height: 1000px;
@@ -162,11 +161,14 @@ p{
 /*footer*/
 #footer {
 	background: $bg-footer;
-	a{
+	.footer {
+		padding: 0.5rem 5rem;
+	}
+	a, img{
 		transition: 1s;
 		&:hover {
-			transform: skewX(15deg);
-			
+			transform: scale(1.1);
+			color: #ccc
 		}
 	}
 }
