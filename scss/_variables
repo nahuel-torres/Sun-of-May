@@ -8,7 +8,17 @@ $t-color: ( link:#e83e8c,
 			title:#fd7e14,
 			sub:#17a2b8,
 			text:#ffffffab,
-			head:#ffc107
+			head:#ffc107,
+
+);
+$tab-color: (
+			primary:#e83e8c,
+			secundary:#35a906,
+			other:#6f42c1
+);
+$f-size:(	normal: 1.2em,
+			sub: 2em,
+			title: 2.5em
 );
 $bg-nav: 	#343a40ec linear-gradient(180deg, #343a40ec 28%, #4e360cc9 92%);
 
