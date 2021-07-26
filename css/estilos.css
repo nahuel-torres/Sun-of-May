@@ -193,8 +193,111 @@ body {
   height: 63vh;
 }
 
-/*contenido ds1*/
+/*contenido contact*/
 /* line 119, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.form-edited {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #495057;
+  background-clip: padding-box;
+  border: 5px solid #f70303;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition-property: border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+}
+
+/* line 140, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.form-edited:focus {
+  color: #ffffff;
+  background-color: #495057;
+  border-color: #fd0a0a;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #fdff5f;
+}
+
+/* line 148, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.select-edited {
+  display: inline-block;
+  width: 100%;
+  height: calc(2em + .75rem + 2px);
+  padding: .375rem 1.75rem .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  vertical-align: middle;
+  background: #495057;
+  background-position-x: right 0.75rem;
+  background-position-y: center;
+  background-size: 8px 10px;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  border: 5px solid #f70303;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition-property: border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+}
+
+/* line 180, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.select-edited:focus {
+  color: #ffffff;
+  background-color: #495057;
+  border-color: #fd0a0a;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #fdff5f;
+}
+
+/* line 188, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.text-area {
+  height: 20vh;
+  resize: none;
+}
+
+/* line 192, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.button-edited {
+  color: #f8f9fa;
+  background-color: #f70303;
+  border-color: #fff707;
+}
+
+/* line 196, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.button-edited:focus {
+  outline: 0;
+  box-shadow: #e83e8cc7;
+}
+
+/* line 200, ../Proyecto-Torres Nahuel/scss/_main.scss */
+.button-edited:hover {
+  color: #fff707;
+  text-decoration: none;
+}
+
+/*contenido ds1*/
+/* line 206, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .in-progress {
   background-image: url("../media/work-in-progress.png");
   max-height: 415px;
@@ -207,12 +310,12 @@ body {
 }
 
 /*contenido ds2*/
-/* line 131, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 218, ../Proyecto-Torres Nahuel/scss/_main.scss */
 p a {
   transition: 1s;
 }
 
-/* line 133, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 220, ../Proyecto-Torres Nahuel/scss/_main.scss */
 p a:hover {
   transform: scale(1);
   background: #0d3761ec;
@@ -221,29 +324,29 @@ p a:hover {
 }
 
 /*contenido ds3*/
-/* line 143, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 230, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #contenido p, #contenido table {
   font-size: 1.2em;
 }
 
-/* line 146, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 233, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #contenido h1 {
   font-size: 1.2em;
 }
 
-/* line 149, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 236, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #contenido h3 {
   font-size: 1.2em;
   font-weight: 300;
 }
 
-/* line 153, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 240, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #contenido .a-sugerencia {
   text-decoration: none;
   transition: 1s;
 }
 
-/* line 156, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 243, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #contenido .a-sugerencia:hover {
   transform: scale 1;
   background: #3d1d7b94;
@@ -252,60 +355,60 @@ p a:hover {
 }
 
 /*juegos*/
-/* line 167, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 254, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos {
   border: none;
 }
 
-/* line 171, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 258, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos__contenido .juegos__contenido--texto {
   color: #ffffffab;
   font-size: 1.2em;
 }
 
-/* line 174, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 261, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos__contenido img {
   width: 30vh;
   height: 40vh;
   transition: all 1s;
 }
 
-/* line 178, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 265, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos__contenido img:hover {
   transform: scale(1.1);
 }
 
-/* line 182, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 269, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos__contenido .juegos__contenido--texto a {
   transition: all 1s;
 }
 
-/* line 184, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 271, ../Proyecto-Torres Nahuel/scss/_main.scss */
 .juegos__contenido .juegos__contenido--texto a:hover {
   background: #41c0e3 linear-gradient(180deg, #41c0e3 0%, #ffffff 33%, #ffffff 66%, #41c0e3 100%);
   color: #e83e8c;
 }
 
 /*footer*/
-/* line 194, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 281, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #footer {
   background: #41c0e3 linear-gradient(180deg, #41c0e3 0%, #ffffff 33%, #ffffff 66%, #41c0e3 100%);
 }
 
-/* line 196, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 283, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #footer .footer {
   padding: 0.5rem 5rem;
 }
 
-/* line 199, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 286, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #footer a, #footer img {
   transition: 1s;
 }
 
-/* line 201, ../Proyecto-Torres Nahuel/scss/_main.scss */
+/* line 288, ../Proyecto-Torres Nahuel/scss/_main.scss */
 #footer a:hover, #footer img:hover {
   transform: scale(1.1);
-  color: #ccc;
+  color: #343a40ec;
 }
 
 /*# sourceMappingURL=estilos.css.map */

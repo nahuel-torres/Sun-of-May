@@ -39,14 +39,14 @@
 	  			<div class="form-row text-light">
 				    <div class="col-md-6 mb-3">
 				     	<label for="validationTooltip01">Nombre</label>
-				      	<input type="text" class="form-control" id="validationTooltip01" value="" required>
+				      	<input type="text" class="form-edited" id="validationTooltip01" value="" required>
 				      	<div class="valid-tooltip">
 				        	Looks good!
 				    	</div>
 					</div>
 					<div class="col-md-6 mb-3">
 						<label for="validationTooltip02">Apellido</label>
-				    	<input type="text" class="form-control" id="validationTooltip02" value="" required>
+				    	<input type="text" class="form-edited" id="validationTooltip02" value="" required>
 				    	<div class="valid-tooltip">
 				    		Looks good!
 				      	</div>
@@ -55,14 +55,14 @@
 				<div class="form-row text-light">
 				    <div class="col-md-6 mb-3">
 				    	<label for="validationCustom03">De donde sos?</label>
-				    	<input type="text" class="form-control" id="validationCustom03" required>
+				    	<input type="text" class="form-edited" id="validationCustom03" required>
 				    	<div class="invalid-feedback">
 				      		Please provide a valid city.
 				    	</div>
 				  	</div>
 				    <div class="col-md-3 mb-3">
 				    	<label for="validationTooltip04">Medio para comunicarte</label>
-				    	<select class="custom-select" id="validationTooltip04" required>
+				    	<select class="select-edited" id="validationTooltip04" required>
 				        	<option selected disabled value="">Cual preferis?</option>
 				        	<option>Gmail</option>
 				        	<option>Steam</option>
@@ -71,7 +71,7 @@
 				    </div>
 				    <div class="col-md-3 mb-3">
 				    	<label for="validationTooltip05">Gmail/Codigo de Steam/Discord</label>
-				    	<input type="text" class="form-control" id="validationTooltip05" required>
+				    	<input type="text" class="form-edited" id="validationTooltip05" required>
 				    	<div class="invalid-tooltip">
 				        	Please provide a user.
 				    	</div>
@@ -79,10 +79,10 @@
 				</div>
 				<div class="form-row text-light">
 				    <label for="exampleFormControlTextarea1">Escribe la sugerencia que tengas para la pagina</label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				    <textarea class="form-edited text-area" id="exampleFormControlTextarea1" rows="3"></textarea>
 				</div>
-				<button type="button" class="btn btn-primary mt-5" data-toggle="modal" data-target="#exampleModal">
-				  Submit
+				<button type="button" class="btn button-edited mt-5" data-toggle="modal" data-target="#exampleModal">
+				  Enviar
 				</button>
 				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				  <div class="modal-dialog">
@@ -133,12 +133,15 @@
 		<nav class="footer navbar navbar-light">
 		  <a class="navbar-brand" href="https://steamcommunity.com/profiles/76561198081627503/ "target="_blank" rel="noopener noreferrer">
 		    <img src="../media/steam-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
+		    <span>Steam-id</span>
 		  </a>
-		  <a class="navbar-brand" href="mailto:nahujesus@gmail.com" target="_blank" rel="noopener noreferrer">
+		  <div class="navbar-brand">
 		    <img src="../media/gmail-logo.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
-		  </a>
+		    <span>sun-of-may@gmail.com</span>
+		  </div>
 		  <a class="navbar-brand" href="https://discord.gg/fRm9fJz" target="_blank" rel="noopener noreferrer">
 		    <img src="../media/discord.png" class="rounded-circle" width="30" height="30" alt="redes" loading="lazy">
+		    <span>Discord group</span>
 		  </a>
 		  <img src="../media/argentina.png" class="rounded-circle" width="30" height="30" alt="Pais" loading="lazy">
 		  <a class="navbar-brand" href="https://www.fromsoftware.jp/ww/ "target="_blank" rel="noopener noreferrer">
