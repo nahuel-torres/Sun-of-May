@@ -25,7 +25,7 @@ body {
 	color: $p-color;
 	font-size: $p-size;
 } 
-/*nav*/ 
+/*nav principal*/ 
 .navegador{
 	background: $bg-nav;
 	.navegador__logo{
@@ -79,9 +79,7 @@ body {
 	margin-top: $banner+2.5;
 	max-width: 570px;
 	max-height: 855px;
-
 }
-
 /*contenido home*/
 .contenido{
 	background: $bg-contenido;
@@ -202,7 +200,7 @@ body {
     	text-decoration: none;
     }
 }
-/*contenido ds1*/
+/*img para secciones en progreso*/
 .in-progress {
 	background-image: url("../media/work-in-progress.png");
 	max-height: 415px;
@@ -213,19 +211,8 @@ body {
 	height: 30vh;
 	margin: auto;
 }
-/*contenido ds2*/
-p{
-	a{
-		transition: 1s;
-		&:hover{
-			transform: scale(1.0);
-			background: #0d3761ec;
-			color: #ffffffab;
-			text-decoration: none;
-		}
-	}
-}
-/*contenido ds3*/
+
+/*contenido ds*/
 #contenido {
 	p, table{
 		font-size: ($p-size);
@@ -241,16 +228,13 @@ p{
 		text-decoration: none;
 		transition: 1s;
 		&:hover{
-			transform: scale (1.0);
 			background: #3d1d7b94;
 			text-decoration: none;
-			color: #e83e8c
+			color: #e83e8c;
 		} 
 	}
 }
-
 /*juegos*/
-
 .juegos{
 	border: none;
 	}
@@ -272,22 +256,43 @@ p{
 				background: #41c0e3 linear-gradient(180deg, #41c0e3 0%, #ffffff 33%, #ffffff 66%, #41c0e3 100%);
 				color: #e83e8c;
 			}
-		}
-
-		
+		}		
 }
-
 /*footer*/
 #footer {
 	background: $bg-footer;
-	.footer {
-		padding: 0.5rem 5rem;
+	a{
+		width: 0
 	}
 	a, img{
-		transition: 1s;
-		&:hover {
-			transform: scale(1.1);
-			color: #343a40ec
+			transition: 1s;
+			&:hover {
+				transform: scaleY(1.2);
+				color: #343a40ec
+			}
 		}
+		a, span {
+			font-weight: 700;
+		}
+}
+@media all and (min-width: 280px) and (max-width: 540px) {
+	.footer {
+		padding: 0.5rem 5rem;
+		position: relative;
+	   	display: flex;
+	   	flex-wrap: wrap;
+	   	align-items: stretch;;
+	   	flex-direction: column;
+	   	align-content: center;
+	}	
+}
+@media all and (min-width: 768px) and (max-width: 1920px) {
+	.footer {
+		padding: 0.5rem 5rem;
+		position: relative;
+    	display: flex;
+    	flex-wrap: nowrap;
+    	flex-direction: column;
+    	align-content: flex-start;
 	}
 }
